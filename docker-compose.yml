@@ -6,10 +6,10 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5040:80"  # Exponer el puerto 5040
-    container_name: bodega_tronelli
+    container_name: zeli
     restart: always
 
     volumes:
       - ./page:/var/www/html/page
     environment:
-      - VIRTUAL_HOST=bodegatronelli.com.ar
+      - VIRTUAL_HOST=zeli.com.ar
