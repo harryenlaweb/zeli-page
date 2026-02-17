@@ -5,8 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "5040:80"  # Exponer el puerto 5040
-    container_name: zeli
+      - "5003:80"  # Exponer el puerto 5003
+    container_name: zeli_page
     restart: always
 
     volumes:
